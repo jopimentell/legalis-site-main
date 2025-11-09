@@ -63,29 +63,6 @@ const Podcast = () => {
                     contemporâneos na administração pública.
                   </p>
 
-                  <h4 className="text-lg font-bold mb-2">Temas abordados:</h4>
-                  <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-6">
-                    <li>Conceito e fundamentação constitucional do princípio da legalidade</li>
-                    <li>Diferenças entre legalidade privada e legalidade administrativa</li>
-                    <li>Aplicações práticas nos atos administrativos</li>
-                    <li>Limites do poder discricionário</li>
-                    <li>Exceções constitucionais ao princípio</li>
-                    <li>Evolução para o conceito de juridicidade</li>
-                    <li>Casos práticos e jurisprudência relevante</li>
-                  </ul>
-
-                  <div className="bg-accent p-6 rounded-lg">
-                    <h4 className="text-lg font-bold mb-3">💡 Para substituir o vídeo:</h4>
-                    <p className="text-sm text-muted-foreground mb-2">
-                      1. Encontre o vídeo desejado no YouTube
-                    </p>
-                    <p className="text-sm text-muted-foreground mb-2">
-                      2. Copie o ID do vídeo (parte após "v=" na URL)
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      3. Substitua o valor da variável <code className="bg-background px-2 py-1 rounded">youtubeVideoId</code> no arquivo <code className="bg-background px-2 py-1 rounded">src/pages/Podcast.tsx</code>
-                    </p>
-                  </div>
                 </div>
               </CardContent>
             </Card>
